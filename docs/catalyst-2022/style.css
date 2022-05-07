@@ -6,6 +6,15 @@
     font-family: 'adelica brush';
     src: url('Adelica Brush.ttf');
 }
+@font-face {
+  font-family: FuturaCondBold;
+  src: url("Futura/FuturaPTCondBold.ttf");
+}
+
+@font-face {
+  font-family: FuturaExtraBold;
+  src: url("Futura/FuturaPTExtraBold.ttf");
+}
 /* NAVBAR ELEMENTS */
 .navbar-brand, .nav-link{
     color: white !important;
@@ -30,3 +39,25 @@
     padding-left: 7vw;
     padding-right: 5vw;
 } */
+
+.title {
+  font-family: FuturaCondBold;
+  color: #b37a4c;
+  text-shadow: 2px 2px #215e4a;
+  font-size: 44px;
+  font-stretch: ultra-expanded;
+}
+
+.text {
+  font-family: FuturaCondBold;
+  margin: 0;
+  font-weight: 400;
+  color: #08162c;
+  font-size: 24px; !important
+}
+
+.terranova_img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
